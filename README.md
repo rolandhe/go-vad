@@ -1,6 +1,7 @@
 # go-vad
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/hexiufeng/go-vad.svg)](https://pkg.go.dev/github.com/hexiufeng/go-vad)
+[![Go Reference](https://pkg.go.dev/badge/github.com/rolandhe/go-vad.svg)](https://pkg.go.dev/github.com/rolandhe/go-vad)
+[中文说明](README_CN.md)
 
 Pure Go Voice Activity Detection (VAD) library — a faithful port of [libfvad](https://github.com/dpirch/libfvad), which is the standalone VAD engine extracted from the [WebRTC](https://webrtc.org/) native code package.
 
@@ -9,7 +10,7 @@ Pure Go Voice Activity Detection (VAD) library — a faithful port of [libfvad](
 ## Installation
 
 ```bash
-go get github.com/hexiufeng/go-vad
+go get github.com/rolandhe/go-vad
 ```
 
 ## Quick Start
@@ -19,7 +20,7 @@ package main
 
 import (
     "fmt"
-    "github.com/hexiufeng/go-vad"
+    "github.com/rolandhe/go-vad"
 )
 
 func main() {

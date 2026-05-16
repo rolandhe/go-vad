@@ -1,6 +1,6 @@
 # go-vad
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/hexiufeng/go-vad.svg)](https://pkg.go.dev/github.com/hexiufeng/go-vad)
+[![Go Reference](https://pkg.go.dev/badge/github.com/rolandhe/go-vad.svg)](https://pkg.go.dev/github.com/rolandhe/go-vad)
 
 纯 Go 语音活动检测 (VAD) 库 —— [libfvad](https://github.com/dpirch/libfvad) 的忠实移植，libfvad 是从 [WebRTC](https://webrtc.org/) 原生代码包中提取的独立 VAD 引擎。
 
@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-go get github.com/hexiufeng/go-vad
+go get github.com/rolandhe/go-vad
 ```
 
 ## 快速开始
@@ -19,7 +19,7 @@ package main
 
 import (
     "fmt"
-    "github.com/hexiufeng/go-vad"
+    "github.com/rolandhe/go-vad"
 )
 
 func main() {
